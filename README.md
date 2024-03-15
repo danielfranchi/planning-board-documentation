@@ -25,6 +25,7 @@ Each component and functionality of the application will be detailed in the foll
 [DatePicker.tsx](#DatePicker) <br />
 [Form](#Form) <br />
 [Header.tsx](#Header) <br />
+[index.html](#index) <br />
 [Input.tsx](#Input) <br />
 [main.tsx](#main) <br />
 [Modal.tsx](#Modal) <br />
@@ -349,3 +350,11 @@ The `DatePicker` component is a React component that utilizes the DateField comp
 
 This component simplifies the process of selecting dates in forms and provides clear error feedback to improve the user experience.
 
+<br /><br />
+
+<a id="index"></a>
+## index.html
+
+The index.html file contains the SEO (Search Engine Optimization) section of the website. This section is responsible for providing important information to search engines, helping them understand and index the content of the website effectively.
+
+To customize the SEO settings of the website, review and modify the meta tags, titles, and other relevant information present in the index.html file.
