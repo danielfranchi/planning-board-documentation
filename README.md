@@ -55,6 +55,8 @@ The `ReactDOM.createRoot` function is used to create a root React component at t
 
 This setup allows the entire application to have access to the Redux store, enabling state management across all components.
 
+<br /><br />
+
 <a id="App"></a>
 ## :atom_symbol: App.tsx
 
@@ -144,7 +146,7 @@ To add a new item, fill in all required fields and select a valid date in the Da
 <br /><br />
 
 <a id="Table"></a>
-## :electron: Table.tsx
+## :atom_symbol: Table.tsx
 
 The `Table` component is responsible for rendering data received from `Form.tsx` and displaying it on the screen. It also provides buttons for editing, deleting, and generating PDFs based on the data entries.
 
@@ -189,7 +191,7 @@ This component serves as a visual representation of the data collected from `For
 <br /><br />
 
 <a id="Button"></a>
-## :electron: Button.tsx
+## :atom_symbol: Button.tsx
 
 The `Button` component is designed to render a button element with customizable text, type, and styling options. It includes functionality to handle click events and trigger navigation to a specific route upon clicking the button.
 
@@ -225,7 +227,7 @@ This component offers a simple and efficient way to create buttons with dynamic 
 <br /><br />
 
 <a id="Header"></a>
-## :electron: Header.tsx
+## :atom_symbol: Header.tsx
 
 The `Header` component represents the header section of the application, containing a title and a button for adding a new vacation plan. It includes functionality to navigate to the root path ("/") upon clicking the header title.
 
@@ -255,7 +257,7 @@ This component plays a crucial role in the overall user interface by offering a 
 <br /><br />
 
 <a id="Input"></a>
-## :electron: Input.tsx
+## :atom_symbol: Input.tsx
 
 The `Input` component is used to render a text input field within a form. It takes input properties such as the input field name and registration function provided by `react-hook-form`.
 
@@ -289,7 +291,7 @@ This component simplifies the process of creating text input fields in forms whi
 <br /><br />
 
 <a id="Modal"></a>
-## :electron: Modal.tsx
+## :atom_symbol: Modal.tsx
 
 
 The `Modal` component is used to display a modal dialog box with options for confirmation or cancellation. It provides a message asking the user to confirm an action and includes buttons for both confirming and canceling the action.
@@ -322,7 +324,7 @@ This component improves interaction within the application by presenting importa
 <br /><br />
 
 <a id="DataPicker"></a>
-## :electron: DatePicker.tsx
+## :atom_symbol: DatePicker.tsx
 
 The `DatePicker` component is a React component that utilizes the DateField component from Material-UI x-date-pickers to handle date selections.
 
@@ -354,7 +356,7 @@ This component simplifies the process of selecting dates in forms and provides c
 <br /><br />
 
 <a id="index"></a>
-## :electron: index.html
+## :atom_symbol: index.html
 
 The index.html file contains the SEO (Search Engine Optimization) section of the website. This section is responsible for providing important information to search engines, helping them understand and index the content of the website effectively.
 
