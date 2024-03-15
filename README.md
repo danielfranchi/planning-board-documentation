@@ -62,7 +62,7 @@ The file starts by importing several necessary libraries and components:
 
 <br /><br />
 
-## App.tsx
+## App Component
 
 The App component is a function that sets up the main structure of the application. It uses the `useEffect` hook to fetch data when the component is mounted. The fetched data is then passed to the Table component.
 
