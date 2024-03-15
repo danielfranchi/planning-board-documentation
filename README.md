@@ -86,9 +86,9 @@ The App component returns a JSX that sets up the structure of the application. I
 
 The application routes are set up using the `Routes` component from `react-router-dom`. Currently, there is only one route set up for the root ("/") of the application.
 
-## DatePicker
+## LocationProvider
 
-The DatePicker is provided by the `LocalizationProvider` from `@mui/x-date-pickers` with the `AdapterDayjs`. This allows the DatePicker to use the Dayjs library for date manipulation.
+LocalizationProvider gives access to the Material UI Data Field component
 
 <br /><br />
 
