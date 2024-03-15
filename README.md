@@ -358,3 +358,9 @@ This component simplifies the process of selecting dates in forms and provides c
 The index.html file contains the SEO (Search Engine Optimization) section of the website. This section is responsible for providing important information to search engines, helping them understand and index the content of the website effectively.
 
 To customize the SEO settings of the website, review and modify the meta tags, titles, and other relevant information present in the index.html file.
+
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
