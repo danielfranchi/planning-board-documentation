@@ -207,3 +207,65 @@ The `Button` component is designed to render a button element with customizable 
 
 This component offers a simple and efficient way to create buttons with dynamic text and behaviors, enhancing user interaction and navigation within the application.
 
+<br /><br />
+
+## Header.tsx
+
+The `Header` component represents the header section of the application, containing a title and a button for adding a new vacation plan. It includes functionality to navigate to the root path ("/") upon clicking the header title.
+
+## Imports
+
+- `Button` from "./Button": Imports the `Button` component for rendering buttons.
+- `useNavigate` from "react-router-dom": Utilized for handling navigation within the application.
+
+## Functionality
+
+- `redirect()`: Function that triggers navigation to the root path ("/") when called.
+
+## Component Structure
+
+- The `Header` component consists of a header element with a background color of "#435d7d" and white text color.
+- It includes a title "Vacation Plan" and a clickable header section that redirects users to the home page ("/") when clicked.
+- The header is designed using Flexbox to center items and provide a responsive layout.
+
+## Usage
+
+- The `Header` component serves as the top section of the application, providing users with a navigation link and an option to add a new vacation plan.
+- Clicking the header title triggers navigation to the home page, allowing users to easily return to the main content area.
+- The "Add vacation plan" button rendered within the header allows users to initiate the process of adding a new vacation plan entry.
+
+This component plays a crucial role in the overall user interface by offering a clear navigation option and a convenient way to add new vacation plans, enhancing the user experience within the application.
+
+<br /><br />
+
+## Input.tsx
+
+The `Input` component is used to render a text input field within a form. It takes input properties such as the input field name and registration function provided by `react-hook-form`.
+
+## Imports
+- `UseFormRegister` from "react-hook-form": Used for registering an input field in a form.
+- `TextField` from "@mui/material": Component from Material-UI used to render text input fields.
+
+## Interface
+- `InputProps`: Interface defining the properties required for the `Input` component:
+- `name`: A string representing the name of the input field.
+- `register`: A function from `react-hook-form` used for registering the input field.
+
+## Functionality
+- `capitalizeFirstLetter(string: string)`: Function that capitalizes the first letter of a given string.
+- The `Input` component renders a text input field using Material-UI's `TextField`.
+- It registers the input field using the name and required validation provided by `react-hook-form`.
+- The input field label displays the capitalized version of the input field name.
+
+## Component Structure
+- The `Input` component renders a text input field with the label capitalized and taking up the full width.
+- The `TextField` component from Material-UI is utilized for styling and functionalities of the text input field.
+- The `register` function is spread into the `TextField` component to handle form registration and validation.
+
+## Usage
+- The `Input` component is designed to be reusable across forms within the application.
+- By passing the input field name and the `register` function from `react-hook-form`, the component facilitates easy integration of form input fields.
+- It enforces required validation on the input field and displays a user-friendly label with the first letter capitalized.
+
+This component simplifies the process of creating text input fields in forms while maintaining consistency and providing essential validation functionality for a better user experience.
+
