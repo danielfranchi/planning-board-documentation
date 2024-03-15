@@ -80,7 +80,8 @@ The DatePicker is provided by the `LocalizationProvider` from `@mui/x-date-picke
 
 <br /><br />
 
-## Form {Form}
+<a id="Form"></a>
+## Form
 
 The Form page is responsible for displaying and managing a data entry form. This form allows users to add new items or edit existing items in the data table.
 
