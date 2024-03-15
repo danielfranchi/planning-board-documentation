@@ -10,30 +10,31 @@ Planning Board is an application developed with React and TypeScript, created wi
 
 This project uses several technologies and libraries, including:
 
-- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
-- [TypeScript](https://www.typescriptlang.org/): A superset of JavaScript that adds static types.
-- [Vite](https://vitejs.dev/): A build tool that provides a faster development environment and more efficient production optimization.
-- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS library for building custom user interfaces.
-- [Material UI](https://mui.com/): A React component library for faster and easier web page development.
+[![React](https://img.shields.io/badge/React-Link-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Link-blue)](https://www.typescriptlang.org/)
+[![Redux](https://img.shields.io/badge/Redux-Link-blue)](https://redux.js.org/)
+
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Link-blue)](https://tailwindcss.com/)
+[![Material UI](https://img.shields.io/badge/Material_UI-Link-blue)](https://mui.com/)
 
 Each component and functionality of the application will be detailed in the following sections.
 
 # Pages and Components
 
-[![App.tsx](https://img.shields.io/badge/App.tsx-Link-red)](#App) <br />
+[![App.tsx](https://img.shields.io/badge/App.tsx-Link-blue)](#App)
+[![Button.tsx](https://img.shields.io/badge/Button.tsx-Link-blue)](#Button)
+[![DatePicker.tsx](https://img.shields.io/badge/DatePicker.tsx-Link-blue)](#DatePicker)
+[![Form](https://img.shields.io/badge/Form-Link-blue)](#Form)
+[![Header.tsx](https://img.shields.io/badge/Header.tsx-Link-blue)](#Header)
 
-[Button.tsx](#Button) <br />
-[DatePicker.tsx](#DatePicker) <br />
-[Form](#Form) <br />
-[Header.tsx](#Header) <br />
-[index.html](#index) <br />
-[Input.tsx](#Input) <br />
-[main.tsx](#main) <br />
-[Modal.tsx](#Modal) <br />
-[Table.tsx](#Table) <br />
+[![index.html](https://img.shields.io/badge/index.html-Link-blue)](#index)
+[![Input.tsx](https://img.shields.io/badge/Input.tsx-Link-blue)](#Input)
+[![main.tsx](https://img.shields.io/badge/main.tsx-Link-blue)](#main)
+[![Modal.tsx](https://img.shields.io/badge/Modal.tsx-Link-blue)](#Modal)
+[![Table.tsx](https://img.shields.io/badge/Table.tsx-Link-blue)](#Table)
 
 <a id="main"></a>
-## main.tsx
+## :atom_symbol: main.tsx
 
 The `main.tsx` file is the entry point of the application. It sets up the React application and renders the root component.
 
@@ -55,7 +56,7 @@ The `ReactDOM.createRoot` function is used to create a root React component at t
 This setup allows the entire application to have access to the Redux store, enabling state management across all components.
 
 <a id="App"></a>
-## App.tsx
+## :atom_symbol: App.tsx
 
 The `App.tsx` file is the entry point of the application. It sets up the overall structure of the application and includes the main components and routes.
 
@@ -92,7 +93,7 @@ The DatePicker is provided by the `LocalizationProvider` from `@mui/x-date-picke
 <br /><br />
 
 <a id="Form"></a>
-## Form
+## :electron: Form
 
 The Form page is responsible for displaying and managing a data entry form. This form allows users to add new items or edit existing items in the data table.
 
@@ -145,7 +146,7 @@ To add a new item, fill in all required fields and select a valid date in the Da
 <br /><br />
 
 <a id="Table"></a>
-## Table.tsx
+## :electron: Table.tsx
 
 The `Table` component is responsible for rendering data received from `Form.tsx` and displaying it on the screen. It also provides buttons for editing, deleting, and generating PDFs based on the data entries.
 
@@ -190,7 +191,7 @@ This component serves as a visual representation of the data collected from `For
 <br /><br />
 
 <a id="Button"></a>
-## Button.tsx
+## :electron: Button.tsx
 
 The `Button` component is designed to render a button element with customizable text, type, and styling options. It includes functionality to handle click events and trigger navigation to a specific route upon clicking the button.
 
@@ -226,7 +227,7 @@ This component offers a simple and efficient way to create buttons with dynamic 
 <br /><br />
 
 <a id="Header"></a>
-## Header.tsx
+## :electron: Header.tsx
 
 The `Header` component represents the header section of the application, containing a title and a button for adding a new vacation plan. It includes functionality to navigate to the root path ("/") upon clicking the header title.
 
@@ -256,7 +257,7 @@ This component plays a crucial role in the overall user interface by offering a 
 <br /><br />
 
 <a id="Input"></a>
-## Input.tsx
+## :electron: Input.tsx
 
 The `Input` component is used to render a text input field within a form. It takes input properties such as the input field name and registration function provided by `react-hook-form`.
 
@@ -290,7 +291,8 @@ This component simplifies the process of creating text input fields in forms whi
 <br /><br />
 
 <a id="Modal"></a>
-## Modal.tsx
+## :electron: Modal.tsx
+
 
 The `Modal` component is used to display a modal dialog box with options for confirmation or cancellation. It provides a message asking the user to confirm an action and includes buttons for both confirming and canceling the action.
 
@@ -322,7 +324,7 @@ This component improves interaction within the application by presenting importa
 <br /><br />
 
 <a id="DataPicker"></a>
-## DatePicker.tsx
+## :electron: DatePicker.tsx
 
 The `DatePicker` component is a React component that utilizes the DateField component from Material-UI x-date-pickers to handle date selections.
 
@@ -354,7 +356,7 @@ This component simplifies the process of selecting dates in forms and provides c
 <br /><br />
 
 <a id="index"></a>
-## index.html
+## :electron: index.html
 
 The index.html file contains the SEO (Search Engine Optimization) section of the website. This section is responsible for providing important information to search engines, helping them understand and index the content of the website effectively.
 
