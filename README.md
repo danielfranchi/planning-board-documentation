@@ -300,3 +300,34 @@ The `Modal` component is used to display a modal dialog box with options for con
 
 This component improves interaction within the application by presenting important messages and actions in a visually prominent and user-friendly manner, ensuring smooth user engagement and decision-making processes.
 
+<br /><br />
+
+## DatePicker.tsx
+
+The `DatePicker` component is a React component that utilizes the DateField component from Material-UI x-date-pickers to handle date selections.
+
+## Imports
+- `Dispatch`, `SetStateAction`, `useMemo`, `useState` from "react": Used for managing states and actions.
+- `dayjs`, `Dayjs` from "dayjs": Date manipulation library for handling dates.
+- `DateField`, `DateValidationError` from "@mui/x-date-pickers": Components from Material-UI x-date-pickers for date selection.
+
+## Interface
+- `DatePickerProps`: Interface defining properties for the `DatePicker` component:
+  - `selectedDate`: Dayjs object representing the selected date or null.
+  - `setSelectedDate`: Dispatch function for setting the selected date.
+  - `formSubmitted`: Boolean indicating if the form has been submitted.
+
+## Functionality
+- Initializes a `minDate` constant set to January 1, 2000.
+- Manages error state and touched state for input validation.
+- Calculates error messages based on form submission, touched state, selected date, and errors.
+- Handles date changes and validation errors via the `handleChange` function.
+- Utilizes the DateField component to render the date picker input field.
+
+## Component Structure
+- The `DatePicker` component renders a DateField component for date selection with error handling.
+- Provides error feedback based on input validation status.
+- Ensures date selection within a valid range and updates states accordingly.
+
+This component simplifies the process of selecting dates in forms and provides clear error feedback to improve the user experience.
+
