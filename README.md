@@ -20,15 +20,15 @@ Each component and functionality of the application will be detailed in the foll
 
 # Pages and Components
 
-[App.tsx](#App)
-[Button.tsx](#Button)
-[DatePicker.tsx](#DatePicker)
-[Form](#Form)
-[Header.tsx](#Header)
-[Input.tsx](#Input)
-[main.tsx](#main)
-[Modal.tsx](#Modal)
-[Table.tsx](#Table)
+[App.tsx](#App) <br />
+[Button.tsx](#Button) <br />
+[DatePicker.tsx](#DatePicker) <br />
+[Form](#Form) <br />
+[Header.tsx](#Header) <br />
+[Input.tsx](#Input) <br />
+[main.tsx](#main) <br />
+[Modal.tsx](#Modal) <br />
+[Table.tsx](#Table) <br />
 
 <a id="main"></a>
 ## main.tsx
