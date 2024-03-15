@@ -172,3 +172,38 @@ The `Table` component is responsible for rendering data received from `Form.tsx`
 
 This component serves as a visual representation of the data collected from `Form.tsx`, providing essential functionalities for managing and interacting with the data entries displayed on the screen.
 
+<br /><br />
+
+## Button.tsx
+
+The `Button` component is designed to render a button element with customizable text, type, and styling options. It includes functionality to handle click events and trigger navigation to a specific route upon clicking the button.
+
+## Imports
+
+- `useNavigate` from "react-router-dom": Used for handling navigation within the application.
+
+## Interface
+
+- `ButtonText`: Interface defining the properties of the button:
+  - `text`: Text displayed on the button.
+  - `type` (optional): Type of the button (submit, reset, or button).
+  - `classButton` (optional): Custom CSS class for styling the button.
+
+## Functionality
+
+- `handleClick(event: React.MouseEvent<HTMLElement>)`: Function that triggers navigation to a specific route (`/form`) when the button's text is "Add vacation plan".
+
+## Component Structure
+
+- The `Button` component renders a button element with the provided text and optional styling class.
+- If no custom CSS class is provided, the button defaults to a specific style defined using tailwind CSS classes.
+- The button's onClick event is linked to the `handleClick` function, enabling navigation to the "/form" route when the button text matches "Add vacation plan".
+
+## Usage
+
+- The `Button` component is versatile and can be used to create buttons with different text content and functionalities.
+- By specifying the `type` property, the button can behave as a regular button, a submit button, or a reset button based on the need.
+- Styling can be customized by adding a custom CSS class to the `classButton` property or using the default styling provided within the component.
+
+This component offers a simple and efficient way to create buttons with dynamic text and behaviors, enhancing user interaction and navigation within the application.
+
