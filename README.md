@@ -128,4 +128,47 @@ The CSS class `bg-[#FDF5E6] shadow-lg p-8 rounded-md` is applied to the form for
 
 To add a new item, fill in all required fields and select a valid date in the DatePicker before clicking "Submit". To edit an existing item, the fields will be pre-filled with existing data. Modify the desired fields and click "Edit" to save the changes.
 
+<br /><br />
+
+## Table.tsx
+
+The `Table` component is responsible for rendering data received from `Form.tsx` and displaying it on the screen. It also provides buttons for editing, deleting, and generating PDFs based on the data entries.
+
+## Imports
+
+- `useState` from "react": Used to manage state within the component.
+- `useDispatch` from "react-redux": Enables dispatching actions to the Redux store.
+- `useNavigate` from "react-router-dom": Facilitates navigation within the application.
+- `Modal` from "./Modal": Component for displaying modals.
+- `PdfDocument` from "./PdfDocument": Component for rendering PDF documents.
+- `deleteData` from "../store/storeData/action": Action for deleting data.
+- `api` from "../service/api": Service for making API requests.
+- `pdf` from "@react-pdf/renderer": Library for generating PDFs.
+- `FaEdit, FaFilePdf, FaTrashAlt` from "react-icons/fa": Icons for edit, PDF generation, and deletion actions.
+
+## Interface
+
+- `Data`: Interface defining the structure of the data entries.
+
+## Functionality
+
+- `edit(id: string)`: Fetches data associated with a specific ID for editing purposes.
+- `deleteItem(id: string)`: Deletes a data entry based on the provided ID.
+- `handleDelete(id: string)`: Sets the selected item ID for deletion and opens a modal for confirmation.
+- `handleConfirm()`: Confirms the deletion of the selected item.
+- `generatePdf(data: Data)`: Generates a PDF document containing the provided data.
+
+## Component Structure
+
+- The `Table` component displays a table containing data entries with columns for title, description, date, location, participants, and options.
+- Each row displays details of a data entry along with buttons for editing, deleting, and generating a PDF.
+- The CSS classes `px`, `py`, and `text` are used for styling the table and its contents.
+
+## Usage
+
+- Clicking the edit button (`FaEdit`) triggers the `edit` function, allowing users to modify the selected data entry.
+- Clicking the delete button (`FaTrashAlt`) opens a modal for confirming the deletion of the selected data entry.
+- Clicking the PDF button (`FaFilePdf`) generates a PDF document containing the details of the selected data entry.
+
+This component serves as a visual representation of the data collected from `Form.tsx`, providing essential functionalities for managing and interacting with the data entries displayed on the screen.
 
