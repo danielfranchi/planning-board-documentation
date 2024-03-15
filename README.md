@@ -20,7 +20,7 @@ Each component and functionality of the application will be detailed in the foll
 
 # Pages and Components
 
-[Form] (#Form)
+Form (#Form)
 
 ## main.tsx
 
