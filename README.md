@@ -20,7 +20,7 @@ Each component and functionality of the application will be detailed in the foll
 
 # Pages and Components
 
-[Form]{#Form}
+[Form] (#Form)
 
 ## main.tsx
 
@@ -80,7 +80,7 @@ The DatePicker is provided by the `LocalizationProvider` from `@mui/x-date-picke
 
 <br /><br />
 
-## Form.tsx {#Form}
+## Form.tsx (#Form)
 
 The Form page is responsible for displaying and managing a data entry form. This form allows users to add new items or edit existing items in the data table.
 
