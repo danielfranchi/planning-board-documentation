@@ -20,8 +20,17 @@ Each component and functionality of the application will be detailed in the foll
 
 # Pages and Components
 
+[App.tsx](#App)
+[Button.tsx](#Button)
+[DatePicker.tsx](#DatePicker)
 [Form](#Form)
+[Header.tsx](#Header)
+[Input.tsx](#Input)
+[main.tsx](#main)
+[Modal.tsx](#Modal)
+[Table.tsx](#Table)
 
+<a id="main"></a>
 ## main.tsx
 
 The `main.tsx` file is the entry point of the application. It sets up the React application and renders the root component.
@@ -43,7 +52,7 @@ The `ReactDOM.createRoot` function is used to create a root React component at t
 
 This setup allows the entire application to have access to the Redux store, enabling state management across all components.
 
-
+<a id="App"></a>
 ## App.tsx
 
 The `App.tsx` file is the entry point of the application. It sets up the overall structure of the application and includes the main components and routes.
@@ -133,6 +142,7 @@ To add a new item, fill in all required fields and select a valid date in the Da
 
 <br /><br />
 
+<a id="Table"></a>
 ## Table.tsx
 
 The `Table` component is responsible for rendering data received from `Form.tsx` and displaying it on the screen. It also provides buttons for editing, deleting, and generating PDFs based on the data entries.
@@ -177,6 +187,7 @@ This component serves as a visual representation of the data collected from `For
 
 <br /><br />
 
+<a id="Button"></a>
 ## Button.tsx
 
 The `Button` component is designed to render a button element with customizable text, type, and styling options. It includes functionality to handle click events and trigger navigation to a specific route upon clicking the button.
@@ -212,6 +223,7 @@ This component offers a simple and efficient way to create buttons with dynamic 
 
 <br /><br />
 
+<a id="Header"></a>
 ## Header.tsx
 
 The `Header` component represents the header section of the application, containing a title and a button for adding a new vacation plan. It includes functionality to navigate to the root path ("/") upon clicking the header title.
@@ -241,6 +253,7 @@ This component plays a crucial role in the overall user interface by offering a 
 
 <br /><br />
 
+<a id="Input"></a>
 ## Input.tsx
 
 The `Input` component is used to render a text input field within a form. It takes input properties such as the input field name and registration function provided by `react-hook-form`.
@@ -274,6 +287,7 @@ This component simplifies the process of creating text input fields in forms whi
 
 <br /><br />
 
+<a id="Modal"></a>
 ## Modal.tsx
 
 The `Modal` component is used to display a modal dialog box with options for confirmation or cancellation. It provides a message asking the user to confirm an action and includes buttons for both confirming and canceling the action.
@@ -305,6 +319,7 @@ This component improves interaction within the application by presenting importa
 
 <br /><br />
 
+<a id="DataPicker"></a>
 ## DatePicker.tsx
 
 The `DatePicker` component is a React component that utilizes the DateField component from Material-UI x-date-pickers to handle date selections.
