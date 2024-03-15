@@ -74,8 +74,6 @@ The file starts by importing several necessary libraries and components:
 - `./routes/routes`: The routes of the application.
 - `./components/Table`: The Table component that is used to display data.
 
-<br /><br />
-
 ## App Component
 
 The App component is a function that sets up the main structure of the application. It uses the `useEffect` hook to fetch data when the component is mounted. The fetched data is then passed to the Table component.
@@ -93,7 +91,7 @@ The DatePicker is provided by the `LocalizationProvider` from `@mui/x-date-picke
 <br /><br />
 
 <a id="Form"></a>
-## :electron: Form
+## :atom_symbol: Form
 
 The Form page is responsible for displaying and managing a data entry form. This form allows users to add new items or edit existing items in the data table.
 
