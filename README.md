@@ -20,7 +20,8 @@ Each component and functionality of the application will be detailed in the foll
 
 # Pages and Components
 
-[App.tsx](#App) <br />
+[![App.tsx](https://img.shields.io/badge/App.tsx-Link-red)](#App) <br />
+
 [Button.tsx](#Button) <br />
 [DatePicker.tsx](#DatePicker) <br />
 [Form](#Form) <br />
