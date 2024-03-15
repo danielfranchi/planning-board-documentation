@@ -323,7 +323,7 @@ This component improves interaction within the application by presenting importa
 
 <br /><br />
 
-<a id="DataPicker"></a>
+<a id="DatePicker"></a>
 ## :atom_symbol: DatePicker.tsx
 
 The `DatePicker` component is a React component that utilizes the DateField component from Material-UI x-date-pickers to handle date selections.
