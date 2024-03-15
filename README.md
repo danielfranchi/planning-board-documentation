@@ -76,5 +76,56 @@ The application routes are set up using the `Routes` component from `react-route
 
 The DatePicker is provided by the `LocalizationProvider` from `@mui/x-date-pickers` with the `AdapterDayjs`. This allows the DatePicker to use the Dayjs library for date manipulation.
 
+<br /><br />
+
+## Form.tsx
+
+The Form page is responsible for displaying and managing a data entry form. This form allows users to add new items or edit existing items in the data table.
+
+## Imports
+
+- `useState, useEffect` from "react": Used to manage states and effects in the component.
+- `useForm` from "react-hook-form": For handling the logic of the form and its validations.
+- `useDispatch` from "react-redux": To dispatch actions to the Redux store.
+- `useNavigate, useLocation` from "react-router-dom": To navigate and access information about the location.
+- `Input` from "../components/Input": Input component for the form.
+- `Button` from "../components/Button": Button component for interaction in the form.
+- `DatePicker` from "../components/DatePicker": Calendar component for selecting a date.
+- `add, editData` from "../store/storeData/action": Actions to add or edit data in the application.
+- `api` from "../service/api": API service for making HTTP requests.
+- `Dayjs` from "dayjs": Library for date manipulation.
+- `Box` from "@mui/material": Material-UI layout component.
+
+## Interfaces
+
+- `FormData`: Interface defining the structure of the form data.
+
+## Form Component
+
+The Form component is a function responsible for configuring and managing the form. It uses various hooks for state management and effects. The form allows users to add new items or edit existing items in the data table.
+
+## State Variables
+
+- `selectedDate`: Stores the selected date in the DatePicker.
+- `formSubmitted`: Indicates whether the form has been submitted.
+- `formDataFromLocation`: Data received from the location.
+
+## Methods
+
+- `onSubmit(data: FormData)`: Function that processes the form upon submission. It adds or edits data in the table based on the selected action.
+
+## Validation
+
+The form includes validations in the date field (DatePicker) and input fields. The form cannot be submitted if the fields are empty or if the date is not selected, ensuring data integrity.
+
+## Component Structure
+
+The Form component returns a form with fields for entering title, description, date, location, and participants. It then displays a button to submit or edit the data.
+
+The CSS class `bg-[#FDF5E6] shadow-lg p-8 rounded-md` is applied to the form for styling.
+
+## Usage
+
+To add a new item, fill in all required fields and select a valid date in the DatePicker before clicking "Submit". To edit an existing item, the fields will be pre-filled with existing data. Modify the desired fields and click "Edit" to save the changes.
 
 
