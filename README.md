@@ -269,3 +269,34 @@ The `Input` component is used to render a text input field within a form. It tak
 
 This component simplifies the process of creating text input fields in forms while maintaining consistency and providing essential validation functionality for a better user experience.
 
+<br /><br />
+
+## Modal.tsx
+
+The `Modal` component is used to display a modal dialog box with options for confirmation or cancellation. It provides a message asking the user to confirm an action and includes buttons for both confirming and canceling the action.
+
+## Interface
+- `ModalProps`: Interface defining the properties required by the `Modal` component:
+  - `isOpen`: A boolean indicating whether the modal is open or closed.
+  - `onClose`: A function to handle the modal close event.
+  - `onConfirm`: A function to handle the confirmation action.
+
+## Functionality
+- If the modal `isOpen` prop is `false`, the component returns `null`, effectively hiding the modal.
+- When the modal is open, it displays a semi-transparent background overlay with the main content centered on the screen.
+- The main content of the modal includes a message asking the user to confirm an action, typically deletion.
+- Two buttons, labeled "Yes" and "No," are provided for the user to confirm or cancel the action.
+- Clicking the "Yes" button triggers the `onConfirm` function, and clicking the "No" button triggers the `onClose` function.
+
+## Component Structure
+- The `Modal` component utilizes Tailwind CSS classes for styling, creating a visually appealing modal dialog box.
+- It includes text content, action buttons, and appropriate spacing to enhance readability and usability.
+- The modal is positioned in the center of the screen and has a shadow effect for depth perception.
+
+## Usage
+- The `Modal` component is a versatile UI element that can be used for confirmation dialogs, alerts, or any interaction that requires user confirmation.
+- By providing the `isOpen`, `onClose`, and `onConfirm` functions, the component offers flexibility in handling different actions and events within the application.
+- The modal enhances the user experience by prompting users to confirm critical actions and provides clear options for proceeding or canceling.
+
+This component improves interaction within the application by presenting important messages and actions in a visually prominent and user-friendly manner, ensuring smooth user engagement and decision-making processes.
+
