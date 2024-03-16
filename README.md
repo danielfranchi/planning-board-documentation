@@ -340,7 +340,7 @@ The `DatePicker` component is a React component that utilizes the DateField comp
   - `formSubmitted`: Boolean indicating if the form has been submitted.
 
 ## Functionality
-- Initializes a `minDate` constant set to January 1, 2000.
+- It only accepts dates from the year 2024.
 - Manages error state and touched state for input validation.
 - Calculates error messages based on form submission, touched state, selected date, and errors.
 - Handles date changes and validation errors via the `handleChange` function.
